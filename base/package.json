@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-mindhive",
+  "version": "1.0.1",
+  "private": false,
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {
+    "babel-eslint": "^7.1.0",
+    "eslint-config-airbnb-base": "^9.0.0",
+    "eslint-plugin-import": "^2.0.1"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
