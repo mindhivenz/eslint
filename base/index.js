@@ -59,7 +59,9 @@ module.exports = {
         devDependencies: [
           "**/test/**/*",
           "**/*.spec.*",
-          "**/mocha.js"
+          "**/mocha.js",
+          "**/webpack.config.js",
+          "**/*wallaby.js"
         ]
       }
     ],
