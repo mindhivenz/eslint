@@ -53,20 +53,16 @@ module.exports = {
     "class-methods-use-this": "off",   // because we don't want to change to static methods based of implementation detail
     "import/named": "error",
     "import/extensions": "off",
-    "import/no-extraneous-dependencies": "off",
-/* REVISIT: once these issues are fixed:
- https://github.com/benmosher/eslint-plugin-import/issues/479
- https://github.com/clayne11/eslint-import-resolver-meteor/issues/11
     "import/no-extraneous-dependencies": [
       "error",
       {
         devDependencies: [
-          "**!/test/!**!/!*",
-          "**!/!*.spec.*"
+          "**/test/**/*",
+          "**/*.spec.*",
+          "**/mocha.js"
         ]
       }
     ],
-*/
     "import/prefer-default-export": "off",
     "import/first": [
       "error",
