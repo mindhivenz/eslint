@@ -58,6 +58,7 @@ module.exports = {
       {
         devDependencies: [
           "**/test/**/*",
+          "**/*specs/**/*",
           "**/*.spec.*",
           "**/mocha.js",
           "**/webpack.config.js",
