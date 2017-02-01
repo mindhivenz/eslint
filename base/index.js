@@ -61,7 +61,7 @@ module.exports = {
           "**/*specs/**/*",
           "**/*.spec.*",
           "**/mocha.js",
-          "**/webpack.config.js",
+          "**/webpack.config.*",
           "**/*wallaby.js"
         ]
       }
