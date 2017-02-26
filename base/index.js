@@ -39,8 +39,8 @@ module.exports = {
     "no-unused-vars": [
       "error",
       {
-        varsIgnorePattern: "[Oo]mit",
-        argsIgnorePattern: "[Ii]gnore"
+        varsIgnorePattern: "([Ii]gnore|[Oo]mit)",
+        argsIgnorePattern: "([Ii]gnore|[Oo]mit)"
       }
     ],
     "no-param-reassign": [
