@@ -5,6 +5,9 @@ module.exports = {
   env: {
     meteor: true
   },
+  globals: {
+    "_": false
+  },
   rules: {
     "new-cap": [
       "error",
