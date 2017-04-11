@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-mindhive-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "private": false,
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
     "eslint-config-mindhive": "^1.0.1",
-    "eslint-config-airbnb": "^13.0.0",
-    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-config-airbnb": "^14.0.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.4.1"
   },
   "peerDependencies": {
