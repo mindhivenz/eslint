@@ -46,11 +46,13 @@ module.exports = {
     "no-param-reassign": [
       "error",
       {
-        props: false                // can assign the properties of params
+        props: false                  // can assign the properties of params
       }
     ],
-    "no-trailing-spaces": "off",    // because IDEA often leaves these around until a save is done
-    "class-methods-use-this": "off",   // because we don't want to change to static methods based of implementation detail
+    "no-trailing-spaces": "off",      // because IDEA often leaves these around until a save is done
+    "class-methods-use-this": "off",  // because we don't want to change to static methods based of implementation detail
+    "no-return-await": "off",         // we prefer to be obvious where the code is awaiting
+    "no-await-in-loop": "off",        // we use this fairly often
     "import/named": "error",
     "import/extensions": "off",
     "import/no-extraneous-dependencies": [
