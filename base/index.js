@@ -63,8 +63,10 @@ module.exports = {
           "**/*specs/**/*",
           "**/*.spec.*",
           "**/mocha.js",
+          "**/deploy/**/*",
+          "**/*wallaby.js",
           "**/webpack.config.*",
-          "**/*wallaby.js"
+          "**/gulpfile.*"
         ]
       }
     ],
