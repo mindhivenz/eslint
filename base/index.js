@@ -28,6 +28,10 @@ module.exports = {
         }
       }
     ],
+    "no-multi-spaces": [
+      "error",
+      { ignoreEOLComments: false }
+    ],
     "quote-props": "off",            // Sometimes good for consistency
     "comma-dangle": [                // Because we sometimes like single params on multi lines with no comma dangle
       "error",
