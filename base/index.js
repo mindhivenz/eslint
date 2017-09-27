@@ -32,6 +32,7 @@ module.exports = {
       "error",
       { ignoreEOLComments: true }
     ],
+    "object-curly-newline": "off",   // Can better for pretty formatting in other ways
     "quote-props": "off",            // Sometimes good for consistency
     "comma-dangle": [                // Because we sometimes like single params on multi lines with no comma dangle
       "error",
@@ -52,6 +53,21 @@ module.exports = {
       {
         props: false                  // can assign the properties of params
       }
+    ],
+    "function-paren-newline": "off",
+    "prefer-destructuring": [
+      "error",
+      {
+        VariableDeclarator: {
+          array: false,
+          object: true
+        },
+        AssignmentExpression: {
+          array: true,
+          object: false               // This is where we differ from AirBnB, as it requires ugly brackets
+        },
+      },
+      { enforceForRenamedProperties: false }
     ],
     "no-trailing-spaces": "off",      // because IDEA often leaves these around until a save is done
     "class-methods-use-this": "off",  // because we don't want to change to static methods based of implementation detail

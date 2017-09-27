@@ -1,14 +1,14 @@
 {
   "name": "eslint-config-mindhive-meteor-react",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "private": false,
   "license": "MIT",
   "main": "index.js",
   "dependencies": {
-    "eslint-config-mindhive-meteor": "^1.1.1",
-    "eslint-config-mindhive-react": "^1.0.2"
+    "eslint-config-mindhive-meteor": "^2.0.0",
+    "eslint-config-mindhive-react": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 4.3.0"
   }
 }
