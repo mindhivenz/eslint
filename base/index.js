@@ -59,12 +59,12 @@ module.exports = {
       "error",
       {
         VariableDeclarator: {
-          array: false,
+          array: true,
           object: true
         },
         AssignmentExpression: {
-          array: true,
-          object: false               // This is where we differ from AirBnB, as it requires ugly brackets
+          array: false,               // because without semicolons it to causes too many problems
+          object: false               // otherwise requires ugly brackets
         },
       },
       { enforceForRenamedProperties: false }
