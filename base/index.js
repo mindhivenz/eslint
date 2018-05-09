@@ -30,7 +30,7 @@ module.exports = {
     ],
     "no-multi-spaces": [
       "error",
-      { ignoreEOLComments: true }
+      { ignoreEOLComments: true }    // Just like this one
     ],
     "object-curly-newline": "off",   // Can better for pretty formatting in other ways
     "quote-props": "off",            // Sometimes good for consistency
@@ -50,9 +50,7 @@ module.exports = {
     ],
     "no-param-reassign": [
       "error",
-      {
-        props: false                  // can assign the properties of params
-      }
+      { props: false }                // can assign the properties of params
     ],
     "function-paren-newline": "off",
     "prefer-destructuring": [
@@ -72,7 +70,11 @@ module.exports = {
     "no-trailing-spaces": "off",      // because IDEA often leaves these around until a save is done
     "class-methods-use-this": "off",  // because we don't want to change to static methods based of implementation detail
     "no-return-await": "off",         // we prefer to be obvious where the code is awaiting
-    "no-await-in-loop": "off",        // we use this fairly often
+    "no-await-in-loop": "off",        // we use this fairly often when the body has to run sequentially
+    "no-constant-condition": [
+      "error",
+      { checkLoops: false }           // Like: while (true) { ... if (x) break/return }
+    ],
     "import/named": "error",
     "import/extensions": "off",
     "import/no-extraneous-dependencies": [
