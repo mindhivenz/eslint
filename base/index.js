@@ -20,14 +20,6 @@ module.exports = {
       "error",
       "never"
     ],
-    "space-unary-ops": [
-      "error",
-      {
-        overrides: {
-          "!": true
-        }
-      }
-    ],
     "no-multi-spaces": [
       "error",
       { ignoreEOLComments: true }    // Just like this one
