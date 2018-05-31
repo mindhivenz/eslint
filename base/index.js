@@ -30,6 +30,7 @@ module.exports = {
       "error",
       "only-multiline"
     ],
+    "arrow-parens": "off",           // Prettier doesn't use them when function body
     "no-confusing-arrow": "off",
     "no-unused-expressions": "off",  // Used in Chai a lot
     "no-underscore-dangle": "off",   // We use to indicate private
