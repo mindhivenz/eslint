@@ -5,11 +5,9 @@ module.exports = {
   ],
   rules: {
     "react/prop-types": "off",
-    "react/jsx-wrap-multilines": ["error", {
-      declaration: true,
-      assignment: true,
-      return: true,
-      arrow: false
-    }]
+
+    // Disable formatting rules because we use Prettier
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-indent": "off"
   }
 }
